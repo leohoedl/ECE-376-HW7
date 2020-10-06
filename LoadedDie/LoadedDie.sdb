@@ -1,0 +1,179 @@
+[p GLOBOPT AUTOSTATIC LFSROK SPACEOPT EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+"62 C:\Users\leeee\Desktop\LoadedDie\lcd_portd.c
+[v _c `uc  1 a 1 prodl ]
+"44
+[v _c `uc  1 a 1 prodl ]
+"54
+[v _Row `uc  1 a 1 fsr2l ]
+[v _Row `uc  1 a 1 fsr2l ]
+"62
+[v _c `uc  1 a 1 prodl ]
+"44
+[v _c `uc  1 a 1 prodl ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\almod.c
+[v ___almod `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\awmod.c
+[v ___awmod `(i  1 e 2 0 ]
+"16 C:\Users\leeee\Desktop\LoadedDie\lcd_portd.c
+[v _Wait_ms `(v  1 e 0 0 ]
+"25
+[v _LCD_Pause `(v  1 e 0 0 ]
+"32
+[v _LCD_Strobe `(v  1 e 0 0 ]
+"44
+[v _LCD_Inst `(v  1 e 0 0 ]
+"54
+[v _LCD_Move `(v  1 e 0 0 ]
+"62
+[v _LCD_Write `(v  1 e 0 0 ]
+"73
+[v _LCD_Init `(v  1 e 0 0 ]
+"87
+[v _LCD_Out `(v  1 e 0 0 ]
+"22 C:\Users\leeee\Desktop\LoadedDie\Loaded_Die.c
+[v _main `(v  1 e 0 0 ]
+"90 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\include\pic18f4620.h
+[v _ADCON1 `Nuc  1 e 1 @4033 ]
+"115
+[v _SPBRG `Nuc  1 e 1 @4015 ]
+"117
+[v _TXREG `VNuc  1 e 1 @4013 ]
+"118
+[v _TXSTA `VNuc  1 e 1 @4012 ]
+"119
+[v _RCSTA `VNuc  1 e 1 @4011 ]
+"133
+[v _TRISE `VNuc  1 e 1 @3990 ]
+"134
+[v _TRISD `VNuc  1 e 1 @3989 ]
+"136
+[v _TRISC `VNuc  1 e 1 @3988 ]
+"137
+[v _TRISB `VNuc  1 e 1 @3987 ]
+"138
+[v _TRISA `VNuc  1 e 1 @3986 ]
+"148
+[v _PORTD `VNuc  1 e 1 @3971 ]
+"338
+[v _BRG16 `Nb  1 e 0 @32195 ]
+"402
+[v _TRMT `VNb  1 e 0 @32097 ]
+"403
+[v _BRGH `Nb  1 e 0 @32098 ]
+"405
+[v _SYNC `Nb  1 e 0 @32100 ]
+"491
+[v _TXIE `Nb  1 e 0 @31980 ]
+"492
+[v _RCIE `Nb  1 e 0 @31981 ]
+"617
+[v _RD1 `VNb  1 e 0 @31769 ]
+"618
+[v _RD2 `VNb  1 e 0 @31770 ]
+"619
+[v _RD3 `VNb  1 e 0 @31771 ]
+"637
+[v _RB0 `VNb  1 e 0 @31752 ]
+"9 C:\Users\leeee\Desktop\LoadedDie\Loaded_Die.c
+[v _MSG0 `DC[21]uc  1 e 21 0 ]
+"10
+[v _MSG1 `DC[21]uc  1 e 21 0 ]
+"22
+[v _main `(v  1 e 0 0 ]
+{
+"23
+[v _d101 `i  1 a 2 0 ]
+[v _d8 `i  1 a 2 2 ]
+"25
+[v _i `ui  1 a 2 4 ]
+"67
+} 6
+"54 C:\Users\leeee\Desktop\LoadedDie\lcd_portd.c
+[v _LCD_Move `(v  1 e 0 0 ]
+{
+[v _Row `uc  1 a 1 wreg ]
+[v _Col `uc  1 p 1 0 ]
+[v _Row `uc  1 a 1 fsr2l ]
+"59
+} 0
+"87
+[v _LCD_Out `(v  1 e 0 0 ]
+{
+"88
+[v _A `[10]uc  1 a 10 0 ]
+"87
+[v _DATA `l  1 p 4 0 ]
+[v _D `uc  1 p 1 4 ]
+[v _N `uc  1 p 1 5 ]
+"88
+[v _i `uc  1 a 1 fsr2l ]
+[v _i `uc  1 a 1 prodh ]
+"103
+} 10
+"73
+[v _LCD_Init `(v  1 e 0 0 ]
+{
+"83
+} 0
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\awmod.c
+[v ___awmod `(i  1 e 2 0 ]
+{
+[v _dividend `i  1 p 2 0 ]
+[v _divisor `i  1 p 2 2 ]
+"30
+} 0
+"62 C:\Users\leeee\Desktop\LoadedDie\lcd_portd.c
+[v _LCD_Write `(v  1 e 0 0 ]
+{
+[v _c `uc  1 a 1 wreg ]
+[v _c `uc  1 a 1 prodl ]
+"69
+} 0
+"44
+[v _LCD_Inst `(v  1 e 0 0 ]
+{
+[v _c `uc  1 a 1 wreg ]
+[v _c `uc  1 a 1 prodl ]
+"51
+} 0
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\aldiv.c
+[v ___aldiv `(l  1 e 4 0 ]
+{
+"6
+[v _quotient `l  1 a 4 0 ]
+"5
+[v _dividend `l  1 p 4 0 ]
+[v _divisor `l  1 p 4 4 ]
+"37
+} 4
+"5 C:\Program Files (x86)\HI-TECH Software\PICC-18\PRO\9.63\sources\almod.c
+[v ___almod `(l  1 e 4 0 ]
+{
+[v _dividend `l  1 p 4 0 ]
+[v _divisor `l  1 p 4 4 ]
+"30
+} 0
+"32 C:\Users\leeee\Desktop\LoadedDie\lcd_portd.c
+[v _LCD_Strobe `(v  1 e 0 0 ]
+{
+"39
+} 0
+"16
+[v _Wait_ms `(v  1 e 0 0 ]
+{
+"17
+[v _j `ui  1 a 2 0 ]
+"16
+[v _X `ui  1 p 2 0 ]
+"21
+} 2
+"25
+[v _LCD_Pause `(v  1 e 0 0 ]
+{
+"28
+} 0

@@ -1,0 +1,24 @@
+_SCI_CRLF: CODE, 6760 0 18
+_Wait_ms: CODE, 6682 0 40
+_LCD_Inst: CODE, 6546 0 48
+_main: CODE, 4432 0 296
+___ftdiv: CODE, 5520 0 164
+___ftmul: CODE, 5684 0 154
+_LCD_Out: CODE, 5134 0 198
+___ftneg: CODE, 6796 0 14
+___awtoft: CODE, 6232 0 106
+___ftpack: CODE, 4728 0 204
+___aldiv: CODE, 5332 0 188
+_LCD_Move: CODE, 6436 0 58
+_LCD_Strobe: CODE, 6778 0 18
+_SCI_Out: CODE, 4932 0 202
+___fttol: CODE, 5986 0 136
+_LCD_Pause: CODE, 6810 0 12
+___almod: CODE, 5838 0 148
+___ftunpack: CODE, 6122 0 110
+_LCD_Write: CODE, 6722 0 38
+___ftsub: CODE, 6594 0 46
+_LCD_Init: CODE, 6494 0 52
+___ftadd: CODE, 4126 0 306
+_A2D_Read: CODE, 6640 0 42
+Total: 2598
